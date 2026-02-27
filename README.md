@@ -1,4 +1,4 @@
-2026 Mayur Joshi All Rights Reserved
+# 2026 Mayur Joshi All Rights Reserved
 Anyone can read my code from this repository.
 Users cannot legally clone, fork for reuse, or incorporate this code into their projects.
 
@@ -8,3 +8,4 @@ My IB MYP Community Advocacy project based on improper disposal of electronic wa
 This project was developped by me for a community advocacy project based on an environmental issue. I chose the improper disposal of electronic waste, and ways we can decrease the percentage of it.
 I have used HTML, CSS, JavaScript and Node for the AI chat segment.
 While I have integrated AI (ChatGPT) within this project, it will not work on public view.
+The Node Modules used have not been added as there are many files. JSON files have been included
