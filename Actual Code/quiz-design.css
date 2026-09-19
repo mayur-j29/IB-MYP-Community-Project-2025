@@ -1,0 +1,47 @@
+@import url('stylesheet.css');
+
+#quiz {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--button-radius);
+  margin: 54px auto 80px;
+  max-width: 900px;
+  padding: 36px;
+  width: calc(100% - 56px);
+}
+
+#question {
+  color: var(--ink);
+  font: 600 clamp(1.35rem, 3vw, 2rem) 'Space Grotesk', sans-serif;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+#options { display: grid; gap: 10px; }
+
+#options button {
+  background: #e5eee4;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0;
+  padding: 15px 16px;
+  text-align: left;
+}
+
+#options button:hover,
+#options button:focus-visible {
+  background: var(--eucalyptus);
+  color: #fff;
+  outline: 0;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#quiz p { margin: 20px 0 0; max-width: none; }
+
+@media (max-width: 640px) {
+  #quiz { margin-top: 34px; padding: 24px; width: calc(100% - 40px); }
+}
